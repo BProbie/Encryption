@@ -1,11 +1,11 @@
-package com.probie;
+package com.probie.encryption;
 
-import com.probie.Worder.WorderFactory;
-import com.probie.Config.ConfigFactory;
-import com.probie.Encoder.EncoderFactory;
-import com.probie.Decoder.DecoderFactory;
-import com.probie.Decrypter.DecrypterFactory;
-import com.probie.Encrypter.EncrypterFactory;
+import com.probie.encryption.Config.ConfigFactory;
+import com.probie.encryption.Worder.WorderFactory;
+import com.probie.encryption.Encoder.EncoderFactory;
+import com.probie.encryption.Decoder.DecoderFactory;
+import com.probie.encryption.Decrypter.DecrypterFactory;
+import com.probie.encryption.Encrypter.EncrypterFactory;
 
 public class Encryption {
 
@@ -52,7 +52,8 @@ public class Encryption {
 
     public static void setFilePath(String filePath) {
         Encryption.filePath = filePath;
-        Encryption.getInstance().getConfigFactory().getKeyConfig().getLocalDB().setFilePath(filePath).connect();
+        Encryption.getInstance().getConfigFactory().getKeyConfig().getLocalDB().setFilePath(filePath);
+        Encryption.getInstance().getConfigFactory().getKeyConfig().getLocalDB().connect();
     }
 
     public static String getFilePath() {

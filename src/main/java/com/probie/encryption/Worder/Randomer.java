@@ -1,4 +1,4 @@
-package com.probie.Worder;
+package com.probie.encryption.Worder;
 
 public class Randomer {
 

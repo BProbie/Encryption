@@ -1,4 +1,4 @@
-package com.probie;
+package com.probie.encryption;
 
 public class Main {
 

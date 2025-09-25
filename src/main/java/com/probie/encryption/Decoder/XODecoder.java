@@ -1,6 +1,6 @@
-package com.probie.Decoder;
+package com.probie.encryption.Decoder;
 
-import com.probie.Encryption;
+import com.probie.encryption.Encryption;
 
 public class XODecoder {
 

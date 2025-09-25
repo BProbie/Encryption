@@ -1,4 +1,4 @@
-package com.probie.Decoder;
+package com.probie.encryption.Decoder;
 
 import java.util.Base64;
 import java.io.IOException;

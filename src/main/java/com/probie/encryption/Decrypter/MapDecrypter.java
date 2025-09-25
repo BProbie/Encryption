@@ -1,8 +1,8 @@
-package com.probie.Decrypter;
+package com.probie.encryption.Decrypter;
 
 import java.util.HashMap;
 import java.util.ArrayList;
-import com.probie.Encryption;
+import com.probie.encryption.Encryption;
 import java.util.Collections;
 
 public class MapDecrypter {

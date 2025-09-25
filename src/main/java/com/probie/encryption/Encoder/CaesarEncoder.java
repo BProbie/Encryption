@@ -1,6 +1,6 @@
-package com.probie.Encoder;
+package com.probie.encryption.Encoder;
 
-import com.probie.Encryption;
+import com.probie.encryption.Encryption;
 
 public class CaesarEncoder {
 

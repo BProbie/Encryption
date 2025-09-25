@@ -1,4 +1,4 @@
-package com.probie.Decrypter;
+package com.probie.encryption.Decrypter;
 
 public class DecrypterFactory {
 

@@ -1,4 +1,4 @@
-package com.probie.Encoder;
+package com.probie.encryption.Encoder;
 
 import java.util.Base64;
 import java.nio.charset.StandardCharsets;

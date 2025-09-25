@@ -1,4 +1,4 @@
-package com.probie.Encoder;
+package com.probie.encryption.Encoder;
 
 public class EncoderFactory {
 

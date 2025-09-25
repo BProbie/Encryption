@@ -1,4 +1,4 @@
-package com.probie.Config;
+package com.probie.encryption.Config;
 
 public class ConfigFactory {
 

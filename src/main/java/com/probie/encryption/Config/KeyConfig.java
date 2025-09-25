@@ -1,8 +1,8 @@
-package com.probie.Config;
+package com.probie.encryption.Config;
 
-import com.probie.EasyDB;
-import com.probie.Encryption;
-import com.probie.Database.Local.LocalDB;
+import com.probie.easydb.EasyDB;
+import com.probie.encryption.Encryption;
+import com.probie.easydb.Database.Local.LocalDB;
 
 /**
  * 密钥配置文件
