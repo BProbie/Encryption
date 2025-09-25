@@ -7,7 +7,6 @@ import com.probie.Decoder.DecoderFactory;
 import com.probie.Decrypter.DecrypterFactory;
 import com.probie.Encrypter.EncrypterFactory;
 
-
 public class Encryption {
 
     private volatile static Encryption INSTANCE;
