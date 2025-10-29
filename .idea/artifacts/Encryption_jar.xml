@@ -3,7 +3,8 @@
     <output-path>$PROJECT_DIR$/out/artifacts/Encryption_jar</output-path>
     <root id="archive" name="Encryption.jar">
       <element id="module-output" name="Encryption" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/BProbie/EasyDB/1.1.0/EasyDB-1.1.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/BProbie/EasyDB/1.6.0/EasyDB-1.6.0.jar" path-in-jar="/" />
+      <element id="library" level="project" name="Maven: com.github.BProbie:EasyDB:1.6.0" />
     </root>
   </artifact>
 </component>
