@@ -7,6 +7,8 @@ import com.probie.encryption.Decoder.DecoderFactory;
 import com.probie.encryption.Decrypter.DecrypterFactory;
 import com.probie.encryption.Encrypter.EncrypterFactory;
 
+import java.lang.management.ManagementFactory;
+
 public class Encryption {
 
     private volatile static Encryption INSTANCE;
@@ -24,6 +26,15 @@ public class Encryption {
             INSTANCE = new Encryption();
         }
         return INSTANCE;
+    }
+
+    public boolean isDebug() {
+        for (String arg : ManagementFactory.getRuntimeMXBean().getInputArguments()) {
+            if (arg.contains("-agentlib:jdwp") || arg.contains("Xdebug") || arg.contains("-Xrunjdwp")) {
+                return true;
+            }
+        }
+        return false;
     }
 
     public WorderFactory getWorderFactory() {
