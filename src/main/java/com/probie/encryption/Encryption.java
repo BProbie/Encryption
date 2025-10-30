@@ -63,7 +63,7 @@ public class Encryption {
 
     public static void setFilePath(String filePath) {
         Encryption.filePath = filePath;
-        Encryption.getInstance().getConfigFactory().getKeyConfig().getLocalDB().setFilePath(filePath);
+        Encryption.getInstance().getConfigFactory().getKeyConfig().getLocalDB().setFullFilePath(filePath);
         Encryption.getInstance().getConfigFactory().getKeyConfig().getLocalDB().connect();
     }
 

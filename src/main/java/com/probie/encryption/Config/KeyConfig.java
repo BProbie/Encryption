@@ -22,7 +22,7 @@ public class KeyConfig {
     public synchronized LocalDB getLocalDB() {
         if (localDB == null) {
             localDB = EasyDB.getInstance().getLocalDatabaseFactory().buildLocalDB();
-            localDB.setFilePath(Encryption.getFilePath());
+            localDB.setFullFilePath(Encryption.getFilePath());
             localDB.connect();
         }
         return localDB;
