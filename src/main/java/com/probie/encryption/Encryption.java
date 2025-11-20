@@ -1,5 +1,7 @@
 package com.probie.encryption;
 
+import java.io.File;
+import java.lang.management.ManagementFactory;
 import com.probie.encryption.Config.ConfigFactory;
 import com.probie.encryption.Worder.WorderFactory;
 import com.probie.encryption.Encoder.EncoderFactory;
@@ -7,13 +9,11 @@ import com.probie.encryption.Decoder.DecoderFactory;
 import com.probie.encryption.Decrypter.DecrypterFactory;
 import com.probie.encryption.Encrypter.EncrypterFactory;
 
-import java.lang.management.ManagementFactory;
-
 public class Encryption {
 
     private volatile static Encryption INSTANCE;
 
-    private volatile static String filePath = System.getProperty("user.dir") + "\\" + "Key";
+    private volatile static String filePath = System.getProperty("user.dir")+File.separator+"Key";
     private volatile static int ascllMin = 33;
     private volatile static int ascllMax = 126;
 
