@@ -1,4 +1,4 @@
-package com.probie.encryption;
+package com.probie.encryption.Encryption;
 
 import java.io.File;
 import java.lang.management.ManagementFactory;

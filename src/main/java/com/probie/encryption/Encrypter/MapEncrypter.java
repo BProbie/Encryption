@@ -3,7 +3,7 @@ package com.probie.encryption.Encrypter;
 import java.util.HashMap;
 import java.util.ArrayList;
 import java.util.Collections;
-import com.probie.encryption.Encryption;
+import com.probie.encryption.Encryption.Encryption;
 
 public class MapEncrypter {
 

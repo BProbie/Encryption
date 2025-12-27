@@ -1,7 +1,7 @@
 package com.probie.encryption.Config;
 
-import com.probie.easydb.EasyDB;
-import com.probie.encryption.Encryption;
+import com.probie.easydb.EasyDB.EasyDB;
+import com.probie.encryption.Encryption.Encryption;
 import com.probie.easydb.Database.Local.LocalDB;
 
 /**
