@@ -62,7 +62,7 @@ src/
 
 - **编程语言**：Java 21
 - **构建工具**：Maven
-- **数据库依赖**：EasyDB 2.6.0
+- **数据库依赖**：EasyDB least
 - **设计模式**：工厂模式、单例模式
 
 ## 📖 设计理念
@@ -101,6 +101,27 @@ cd Encryption
 ```bash
 mvn clean package
 ```
+
+### 🚀  快速开始
+
+### Installation | 安装
+
+Add the following dependency to your Maven project:
+
+```xml
+<repository>
+	<id>jitpack.io</id>
+	<url>https://jitpack.io</url>
+</repository>
+
+<dependency>
+    <groupId>com.github.BProbie</groupId>
+    <artifactId>Encryption</artifactId>
+    <version>least</version>
+</dependency>
+```
+
+### Basic Usage | 基本使用
 
 ## 📚 使用指南
 
@@ -209,4 +230,4 @@ public NewEncrypter getNewEncrypter() {
 
 ---
 
-*版本：2.1.1 | 最后更新：2025-11-20*
+*版本：2.3 | 最后更新：2026-3-24*
