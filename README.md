@@ -62,7 +62,7 @@ src/
 
 - **编程语言**：Java 21
 - **构建工具**：Maven
-- **数据库依赖**：EasyDB least
+- **数据库依赖**：EasyDB 2.7
 - **设计模式**：工厂模式、单例模式
 
 ## 📖 设计理念
@@ -117,7 +117,7 @@ Add the following dependency to your Maven project:
 <dependency>
     <groupId>com.github.BProbie</groupId>
     <artifactId>Encryption</artifactId>
-    <version>least</version>
+    <version>2.3</version>
 </dependency>
 ```
 
@@ -230,4 +230,4 @@ public NewEncrypter getNewEncrypter() {
 
 ---
 
-*版本：2.3 | 最后更新：2026-3-24*
+*版本：2.3 | 最后更新：2026-03-24*
