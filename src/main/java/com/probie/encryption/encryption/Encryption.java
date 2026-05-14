@@ -12,7 +12,7 @@ import com.probie.encryption.encrypter.EncrypterFactory;
 public class Encryption {
 
     private final String NAME = "Encryption";
-    private final String VERSION = "v2.5.0";
+    private final String VERSION = "2.5.0";
 
     private volatile static Encryption INSTANCE;
 
